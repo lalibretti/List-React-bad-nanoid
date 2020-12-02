@@ -5,7 +5,7 @@ import Form from './components/Form';
 import FilterButton from './components/FilterButton';
 import Todo from './components/Todo';
 
-//import Jumbotron from 'react-bootstrap/Jumbotron';
+
 const FILTER_MAP = {
   All: () => true,
   Active: task => !task.completed,
